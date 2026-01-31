@@ -1,4 +1,4 @@
-# @replicate-toolkit/client
+# replicate-toolkit-client
 
 > A simplified and powerful TypeScript toolkit for interacting with Replicate AI models. Includes built-in rate limiting, automatic retries, and easy-to-use APIs for image processing tasks.
 
@@ -13,25 +13,25 @@
 ## Installation
 
 ```bash
-npm install @replicate-toolkit/client
+npm install replicate-toolkit-client
 ```
 
 or with yarn:
 
 ```bash
-yarn add @replicate-toolkit/client
+yarn add replicate-toolkit-client
 ```
 
 or with pnpm:
 
 ```bash
-pnpm add @replicate-toolkit/client
+pnpm add replicate-toolkit-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { ReplicateToolkit } from '@replicate-toolkit/client';
+import { ReplicateToolkit } from 'replicate-toolkit-client';
 
 // Initialize the client
 const toolkit = new ReplicateToolkit({

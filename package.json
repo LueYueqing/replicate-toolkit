@@ -1,5 +1,5 @@
 {
-  "name": "@replicate-toolkit/client",
+  "name": "replicate-toolkit-client",
   "version": "1.0.0",
   "description": "A simplified and powerful toolkit for interacting with Replicate AI models. Includes rate limiting, automatic retries, and easy-to-use APIs for image upscaling, colorization, photo restoration, and more.",
   "keywords": [
