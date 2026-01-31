@@ -1,0 +1,48 @@
+{
+  "name": "@replicate-toolkit/client",
+  "version": "1.0.0",
+  "description": "A simplified and powerful toolkit for interacting with Replicate AI models. Includes rate limiting, automatic retries, and easy-to-use APIs for image upscaling, colorization, photo restoration, and more.",
+  "keywords": [
+    "replicate",
+    "ai",
+    "machine-learning",
+    "image-processing",
+    "upscale",
+    "colorize",
+    "photo-restoration",
+    "image-enhancement",
+    "api-client",
+    "rate-limiting"
+  ],
+  "author": "LueYueqing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LueYueqing/replicate-toolkit.git"
+  },
+  "homepage": "https://github.com/LueYueqing/replicate-toolkit#readme",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node --test",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "dependencies": {
+    "replicate": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
